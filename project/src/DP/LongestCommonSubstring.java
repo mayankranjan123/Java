@@ -2,8 +2,8 @@ package DP;
 
 public class LongestCommonSubstring {
     public static void main(String[] args) {
-        String x = "abcdgh";
-        String y = "abedfhr";
+        String x = "maya";
+        String y = "Amayank";
         System.out.println("LCS: " + lcs(x.toCharArray(), y.toCharArray(), x.length(), y.length()));
         System.out.println("LCS: " + lcsBottomUp(x.toCharArray(), y.toCharArray(), x.length(), y.length()));
     }

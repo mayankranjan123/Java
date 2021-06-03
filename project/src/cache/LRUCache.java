@@ -1,12 +1,10 @@
 package cache;
 
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
+import java.util.*;
 
 public class LRUCache {
     Deque<CacheEntry> deque = new LinkedList<>();
+
     Map<Integer, CacheEntry> map = new HashMap<>();
     int CACHE_SIZE = 3;
 
